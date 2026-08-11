@@ -14,10 +14,16 @@ public class conditions {
 //        }
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        if (num % 2 == 1){
-            System.out.println("Odd");
+        int num2 = sc.nextInt();
+        if (num == num2 ){
+            System.out.println("num is equal to num2");
         } else {
-            System.out.println("Even");
+            if (num > num2 ){
+                System.out.println("num1 is greater");
+            } else {
+                System.out.println("num2 is greater");
+            }
+
         }
     }
 }
