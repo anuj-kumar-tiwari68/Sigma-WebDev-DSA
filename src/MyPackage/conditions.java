@@ -13,17 +13,32 @@ public class conditions {
 //            System.out.println("Not Adult");
 //        }
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int num2 = sc.nextInt();
-        if (num == num2 ){
-            System.out.println("num is equal to num2");
-        } else {
-            if (num > num2 ){
-                System.out.println("num1 is greater");
-            } else {
-                System.out.println("num2 is greater");
-            }
-
+        int button = sc.nextInt();
+        switch (button) {
+            case 1:
+                System.out.println("Hello");
+                break;
+            case 2:
+                System.out.println("Namaste");
+                break;
+            case 3:
+                System.out.println("Bonjour");
+                break;
+            default:
+                System.out.println("Invalid button");
         }
     }
 }
+//        int num2 = sc.nextInt();
+//        if (num == num2 ){
+//            System.out.println("num is equal to num2");
+//        } else if (num > num2 ){
+//                System.out.println("num1 is greater");
+//        }
+//        else {
+//                System.out.println("num2 is greater");
+//            }
+//
+//
+//    }
+//}
